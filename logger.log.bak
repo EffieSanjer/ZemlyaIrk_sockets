@@ -1,0 +1,53 @@
+28/Jan/2022 20:20:11 - INFO - server - Connected:('127.0.0.1', 63444)
+28/Jan/2022 20:23:07 - INFO - server - Connected:('127.0.0.1', 63478)
+28/Jan/2022 20:23:17 - INFO - server - Disconnected:('127.0.0.1', 63478)
+28/Jan/2022 20:35:33 - INFO - server - Connected:('127.0.0.1', 63541)
+28/Jan/2022 20:35:37 - INFO - server - Disconnected:('127.0.0.1', 63541)
+28/Jan/2022 20:39:13 - INFO - server - Connected:('127.0.0.1', 63570)
+28/Jan/2022 20:43:35 - INFO - server - Connected:('127.0.0.1', 63577)
+28/Jan/2022 20:43:43 - INFO - server - Client (id: 4) is added!
+28/Jan/2022 20:45:42 - INFO - server - Connected:('127.0.0.1', 63595)
+28/Jan/2022 20:46:16 - INFO - server - Client (id: 2) is added!
+28/Jan/2022 21:35:12 - INFO - server - Connected:('127.0.0.1', 63841)
+28/Jan/2022 21:36:01 - INFO - server - Connected:('127.0.0.1', 63847)
+28/Jan/2022 22:14:53 - INFO - server - Connected:('127.0.0.1', 58249)
+28/Jan/2022 22:23:05 - INFO - server - Connected:('127.0.0.1', 58279)
+28/Jan/2022 22:23:10 - INFO - server -  лиент уже удален!
+28/Jan/2022 22:37:07 - INFO - server - Connected:('127.0.0.1', 58345)
+28/Jan/2022 22:37:11 - INFO - server -  лиент уже удален!
+28/Jan/2022 22:37:55 - INFO - server - Connected:('127.0.0.1', 58351)
+28/Jan/2022 22:41:12 - INFO - server - Connected:('127.0.0.1', 58368)
+28/Jan/2022 22:41:55 - INFO - server -  лиент уже удален!
+28/Jan/2022 22:42:13 - INFO - server - Disconnected:('127.0.0.1', 58368)
+28/Jan/2022 22:42:24 - INFO - server - Connected:('127.0.0.1', 58374)
+28/Jan/2022 22:45:21 - INFO - server - Connected:('127.0.0.1', 58385)
+28/Jan/2022 22:46:09 - INFO - server - Client has already deleted
+28/Jan/2022 23:34:17 - INFO - server - Disconnected:('127.0.0.1', 58385)
+28/Jan/2022 23:36:33 - INFO - server - Connected:('127.0.0.1', 58647)
+28/Jan/2022 23:36:38 - INFO - server - Disconnected:('127.0.0.1', 58647)
+28/Jan/2022 23:37:07 - INFO - server - Connected:('127.0.0.1', 58649)
+28/Jan/2022 23:37:09 - INFO - server - Disconnected:('127.0.0.1', 58649)
+28/Jan/2022 23:37:53 - INFO - server - Connected:('127.0.0.1', 58654)
+28/Jan/2022 23:37:57 - INFO - server - Disconnected:('127.0.0.1', 58654)
+28/Jan/2022 23:39:49 - INFO - server - Connected:('127.0.0.1', 58659)
+28/Jan/2022 23:39:51 - INFO - server - Disconnected:('127.0.0.1', 58659)
+28/Jan/2022 23:48:18 - INFO - server - Connected:('127.0.0.1', 58705)
+28/Jan/2022 23:48:52 - INFO - server - Connected:('127.0.0.1', 58707)
+28/Jan/2022 23:48:57 - INFO - server - ќшибка сервера
+29/Jan/2022 00:41:01 - INFO - server - Connected:('127.0.0.1', 58899)
+29/Jan/2022 00:43:14 - INFO - server - Connected:('127.0.0.1', 58907)
+29/Jan/2022 00:45:21 - INFO - server - Connected:('127.0.0.1', 58920)
+29/Jan/2022 00:46:40 - INFO - server - Connected:('127.0.0.1', 58927)
+29/Jan/2022 00:48:55 - INFO - server - ”спешно!
+29/Jan/2022 00:52:03 - INFO - server - Ќе найдено!
+29/Jan/2022 00:52:09 - INFO - server - Disconnected:('127.0.0.1', 58927)
+29/Jan/2022 00:56:42 - INFO - server - Connected:('127.0.0.1', 58952)
+29/Jan/2022 00:56:42 - INFO - server - Disconnected:('127.0.0.1', 58952)
+29/Jan/2022 00:58:42 - INFO - server - Connected:('127.0.0.1', 58958)
+29/Jan/2022 00:58:42 - INFO - server - Disconnected:('127.0.0.1', 58958)
+29/Jan/2022 01:00:18 - INFO - server - Connected:('127.0.0.1', 58962)
+29/Jan/2022 01:00:38 - INFO - server - 
+29/Jan/2022 01:01:07 - INFO - server - Connected:('127.0.0.1', 58970)
+29/Jan/2022 01:01:07 - INFO - server - Disconnected:('127.0.0.1', 58970)
+29/Jan/2022 01:01:30 - INFO - server - Connected:('127.0.0.1', 58972)29/Jan/2022 01:07:47 - INFO - server - Connected:('127.0.0.1', 59009)
+29/Jan/2022 01:08:01 - INFO - server - authorization - 200
