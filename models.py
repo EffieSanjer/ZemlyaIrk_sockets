@@ -1,37 +1,47 @@
-# from sqlalchemy import create_engine
-# engine = create_engine(
-#     "postgresql+psycopg2://postgres:password@localhost/postgres",
-#     echo=True, pool_size=6
-# )
-# engine.connect()
 import binascii
 import os
 import hashlib
+import redis
+import yaml
 
 from sqlalchemy import create_engine, Integer, String, \
-    Column, Date, ForeignKey, Numeric, Index, Boolean, inspect, exc
+    Column, Date, ForeignKey, Numeric, Index, Boolean
 from sqlalchemy.ext.declarative import declarative_base
+from sqlalchemy.orm import Session, sessionmaker, relationship
 from datetime import datetime
 from exceptions import *
 from uuid import uuid4
+import configparser
 
-
-from sqlalchemy.orm import Session, sessionmaker, relationship
-
-# engine = create_engine("postgresql+psycopg2://postgres:pass@localhost/postgres")
-engine = create_engine("sqlite:///data_base.db")
+with open('settings') as conf:
+    # config = configparser.ConfigParser()
+    config = yaml.safe_load(conf)
+# config.read("settings.ini")
+red = redis.Redis(host='127.0.0.1', port=7890)
 
 Base = declarative_base()
-session = Session(bind=engine)
-salt = uuid4().hex
+session = Session(bind=create_engine(config['engine_sqlite']))
+# engine = create_engine("sqlite:///data_base.db")
+salt = config['salt']
 
 def object_to_dict(obj):
-    return {x.name: getattr(obj, x.name)
-    for x in obj.__table__.columns}
+    return {x.name: round(getattr(obj, x.name), 2)
+    if (isinstance(x.type, Numeric)) and (getattr(obj, x.name) != None) and
+       (x.name != 'latitude' and x.name != 'longitude')
+    else getattr(obj, x.name) for x in obj.__table__.columns}
 
 def object_exists(p):
     if p is None:
-       raise NotFoundError
+        raise NotFoundError
+
+def is_login(func):
+    def checking(json):
+        # print(red.get(json['token']))
+        try:
+            return func(json, red.get(json['token']).decode())
+        except:
+            raise UnauthorizedError
+    return checking
 
 #################################################
 
@@ -53,6 +63,8 @@ class People(Base):
     emp_id = Column(Integer, nullable=True)
     date_delete = Column(Date(), nullable=True)
     user_objects = relationship("Objects", back_populates="seller")
+    client_searches = relationship("Searches", back_populates="client")
+    favourite = relationship("Objects", secondary="favourites")
 
     __table_args__ = (
         Index('token_idx', 'token'),
@@ -66,6 +78,7 @@ class People(Base):
                                          People.date_delete == None).first()
         object_exists(p)
         json['token'] = p.token
+        red.set(p.token, p.id, ex=60)
         del json['data']['password']
         del json['data']['email']
         json['data']['full_name'] = p.full_name
@@ -73,34 +86,30 @@ class People(Base):
 
     def add_client(json):
         p = People()
-        # p.__dict__.update(json['data'])
+        salted = hashlib.sha256(json['data']['password'].encode() + salt.encode()).hexdigest()
+        json['data']['password'] = salted
         p = People(**json['data'])
 
-        #dict(p)
-        # p.full_name = json['data']['full_name']
-        # p.phone1 = json['data']['phone1']
-        # p.phone2 = json['data']['phone2']
-        # p.email = json['data']['email']
         p.is_client = True
         p.self_registration = True
-        # p.password = json['data']['password']
         p.token = binascii.hexlify(os.urandom(20)).decode()  # RANDOM
 
         try:
             session.add(p)
             session.commit()
+            json['data'] = {}
+            red.set(p.token, p.id, ex=60)
             json['token'] = p.token
-            json['data']['id'] = p.id
-            json['status'] = '200'
-            json['message'] = ''
+            json['data']['full_name'] = p.full_name
         except:
             session.rollback()
-            json['status'] = '500'
-            json['message'] = 'Ошибка сервера'
+            raise InternalServerError
         return json
 
-    def edit_client(json):
-        p = session.query(People).filter(People.token == json['token']).first()
+    @is_login
+    def edit_client(json, id):
+        # p = session.query(People).filter(People.token == json['token']).first()
+        p = session.query(People).get(id)
         # p = People(**json['data'])
 
         object_exists(p)
@@ -113,77 +122,89 @@ class People(Base):
         try:
             session.add(p)
             session.commit()
-            json['status'] = '200'
-            json['message'] = 'Client (id: ' + str(p.id) + ') is edited!'
+            json['data'] = {}
         except:
             session.rollback()
-            json['status'] = '500'
-            json['message'] = 'Ошибка сервера!'
+            raise InternalServerError
         return json
 
-    def delete_client(json):
+    @is_login
+    def delete_client(json, id):
         try:
-            p = session.query(People).filter(People.token == json['token']).first()
+            # p = session.query(People).filter(People.token == json['token']).first()
+            p = session.query(People).get(id)
             if p is None:
                 raise DeletedError
             p.date_delete = datetime.today()
             session.add(p)
             session.commit()
-            json['status'] = '200'
-            json['message'] = 'Client ' + str(p.id) + ' is deleted'
+            del json['token']
         except DeletedError as e:
             session.rollback()
             json['status'] = e.status
             json['message'] = e.message
-        # except AttributeError:
-        #     print('AAAAAAAA')
+        except:
+            session.rollback()
+            raise InternalServerError
         return json
 
-    def get_client(json):
+    @is_login
+    def get_client(json, id):
         try:
-            p = session.query(People).filter(People.token == json['token']).first()
-
+            # p = session.query(People).filter(People.token == json['token']).first()
+            p = session.query(People).get(id)
             object_exists(p)
-            json['status'] = '200'
             json['data'] = object_to_dict(p)
         except:
-            json['status'] = '500'
-            json['message'] = 'Ошибка сервера!'
-
-        # json['data']['full_name'] = p.full_name
-        # json['data']['phone1'] = p.phone1
-        # json['data']['phone2'] = p.phone2
-        # json['data']['email'] = p.email
-        # json['data']['password'] = p.password
-
+            session.rollback()
+            raise InternalServerError
         return json
 
-    def get_client_objects(json):
+    @is_login
+    def get_client_objects(json, id):
         try:
-            p = session.query(People).filter(People.token == json['token']).first() # client P
-
+            # p = session.query(People).filter(People.token == json['token']).first()
+            p = session.query(People).get(id)
             object_exists(p)
             clients_objects = list(filter(lambda x: x.date_delete == None, p.user_objects))
-
-            # clients_objects = p.user_objects
-
+            # fav = p.favourite
+            # s = p.client_searches
             objects = []
-            for o in clients_objects:  # iterate objects
-                # obj = vars(o)
-                obj = object_to_dict(o)
-                # for key in obj.keys():
-                #     if key.startswith('_'):
-                #         obj.pop(key)
-                #         break
-                objects.append(obj)  # add to list
 
-            #json['data'] = p
+            for o in clients_objects:
+                obj = object_to_dict(o)
+                objects.append(obj)
+
             json['data']['objects'] = objects
-            json['status'] = '200'
         except:
-            json['status'] = '500'
-            json['message'] = 'Ошибка сервера!'
+            session.rollback()
+            raise InternalServerError
         return json
+
+    @is_login
+    def get_client_favourites(json, id):
+        try:
+            # p = session.query(People).filter(People.token == json['token']).first()
+            p = session.query(People).get(id)
+            object_exists(p)
+            c_fav = p.favourite
+            objects = []
+
+            for o in c_fav:
+                obj = object_to_dict(o)
+                objects.append(obj)
+
+            json['data']['favourites'] = objects
+        except:
+            session.rollback()
+            raise InternalServerError
+        return json
+
+    def sign_out(json):
+        del json['token']
+        json['data'] = {}
+        return json
+
 
 class Localities(Base):
     __tablename__ = 'localities'
@@ -198,8 +219,10 @@ class Localities(Base):
     photos = Column(String(250), nullable=True)
     date_delete = Column(String(100), nullable=True)
 
-    loc_objects = relationship("Objects", foreign_keys=[id], primaryjoin="Objects.locality_id == Localities.id", back_populates="locality")
+    loc_objects = relationship("Objects", foreign_keys=[id], primaryjoin="Objects.locality_id == Localities.id",
+                               back_populates="locality")
     # parent_loc_objects = relationship("Objects", back_populates="parent", lazy='select')
+
 
 class Objects(Base):
     __tablename__ = 'objects'
@@ -234,10 +257,32 @@ class Objects(Base):
     date_delete = Column(String(100), nullable=True)
 
     seller = relationship("People", back_populates="user_objects")
-    locality = relationship("Localities", foreign_keys=[locality_id], primaryjoin="Objects.locality_id == Localities.id")
+    locality = relationship("Localities", foreign_keys=[locality_id],
+                            primaryjoin="Objects.locality_id == Localities.id")
     parent = relationship("Localities", foreign_keys=[parent_id], primaryjoin="Objects.parent_id == Localities.id")
     # parent = relationship("Localities", foreign_keys='parent_id', back_populates="parent_loc_objects",  lazy='select')
 
 
-Base.metadata.create_all(engine)
-print(engine)
+class Searches(Base):
+    __tablename__ = 'searches'
+    id = Column(Integer, primary_key=True)
+    name = Column(String(300), nullable=False)
+    query = Column(String(300), nullable=False)
+    client_id = Column(Integer, ForeignKey('people.id'), nullable=False)
+    date = Column(String(100), nullable=False, default=datetime.today())
+    count = Column(Integer, nullable=False, default=0)
+
+    client = relationship("People", back_populates="client_searches")
+
+
+class Favourites(Base):
+    __tablename__ = 'favourites'
+    id = Column(Integer, primary_key=True)
+    client_id = Column(Integer, ForeignKey('people.id'), nullable=False)
+    object_id = Column(Integer, ForeignKey('objects.id'), nullable=False)
+    date_add = Column(String(100), nullable=False, default=datetime.today())
+
+    # client_fav = relationship("People", back_populates="favourite")
+    # client_fav = relationship("People", back_populates="favourite")
+
+# Base.metadata.create_all(engine)

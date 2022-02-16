@@ -12,12 +12,12 @@
 28/Jan/2022 21:36:01 - INFO - server - Connected:('127.0.0.1', 63847)
 28/Jan/2022 22:14:53 - INFO - server - Connected:('127.0.0.1', 58249)
 28/Jan/2022 22:23:05 - INFO - server - Connected:('127.0.0.1', 58279)
-28/Jan/2022 22:23:10 - INFO - server -  лиент уже удален!
+28/Jan/2022 22:23:10 - INFO - server - Клиент уже удален!
 28/Jan/2022 22:37:07 - INFO - server - Connected:('127.0.0.1', 58345)
-28/Jan/2022 22:37:11 - INFO - server -  лиент уже удален!
+28/Jan/2022 22:37:11 - INFO - server - Клиент уже удален!
 28/Jan/2022 22:37:55 - INFO - server - Connected:('127.0.0.1', 58351)
 28/Jan/2022 22:41:12 - INFO - server - Connected:('127.0.0.1', 58368)
-28/Jan/2022 22:41:55 - INFO - server -  лиент уже удален!
+28/Jan/2022 22:41:55 - INFO - server - Клиент уже удален!
 28/Jan/2022 22:42:13 - INFO - server - Disconnected:('127.0.0.1', 58368)
 28/Jan/2022 22:42:24 - INFO - server - Connected:('127.0.0.1', 58374)
 28/Jan/2022 22:45:21 - INFO - server - Connected:('127.0.0.1', 58385)
@@ -33,21 +33,696 @@
 28/Jan/2022 23:39:51 - INFO - server - Disconnected:('127.0.0.1', 58659)
 28/Jan/2022 23:48:18 - INFO - server - Connected:('127.0.0.1', 58705)
 28/Jan/2022 23:48:52 - INFO - server - Connected:('127.0.0.1', 58707)
-28/Jan/2022 23:48:57 - INFO - server - ќшибка сервера
+28/Jan/2022 23:48:57 - INFO - server - Ошибка сервера
 29/Jan/2022 00:41:01 - INFO - server - Connected:('127.0.0.1', 58899)
 29/Jan/2022 00:43:14 - INFO - server - Connected:('127.0.0.1', 58907)
 29/Jan/2022 00:45:21 - INFO - server - Connected:('127.0.0.1', 58920)
 29/Jan/2022 00:46:40 - INFO - server - Connected:('127.0.0.1', 58927)
-29/Jan/2022 00:48:55 - INFO - server - ”спешно!
-29/Jan/2022 00:52:03 - INFO - server - Ќе найдено!
+29/Jan/2022 00:48:55 - INFO - server - Успешно!
+29/Jan/2022 00:52:03 - INFO - server - Не найдено!
 29/Jan/2022 00:52:09 - INFO - server - Disconnected:('127.0.0.1', 58927)
 29/Jan/2022 00:56:42 - INFO - server - Connected:('127.0.0.1', 58952)
 29/Jan/2022 00:56:42 - INFO - server - Disconnected:('127.0.0.1', 58952)
 29/Jan/2022 00:58:42 - INFO - server - Connected:('127.0.0.1', 58958)
 29/Jan/2022 00:58:42 - INFO - server - Disconnected:('127.0.0.1', 58958)
 29/Jan/2022 01:00:18 - INFO - server - Connected:('127.0.0.1', 58962)
-29/Jan/2022 01:00:38 - INFO - server - 
 29/Jan/2022 01:01:07 - INFO - server - Connected:('127.0.0.1', 58970)
 29/Jan/2022 01:01:07 - INFO - server - Disconnected:('127.0.0.1', 58970)
-29/Jan/2022 01:01:30 - INFO - server - Connected:('127.0.0.1', 58972)29/Jan/2022 01:07:47 - INFO - server - Connected:('127.0.0.1', 59009)
+29/Jan/2022 01:01:30 - INFO - server - Connected:('127.0.0.1', 58972)
+29/Jan/2022 01:07:47 - INFO - server - Connected:('127.0.0.1', 59009)
 29/Jan/2022 01:08:01 - INFO - server - authorization - 200
+29/Jan/2022 11:29:50 - INFO - server - Connected:('127.0.0.1', 58671)
+29/Jan/2022 11:30:01 - INFO - server - authorization - 200
+29/Jan/2022 13:10:26 - INFO - server - Connected:('127.0.0.1', 51116)
+29/Jan/2022 13:11:26 - INFO - server - authorization - 200
+29/Jan/2022 13:17:25 - INFO - server - Connected:('127.0.0.1', 51160)
+29/Jan/2022 13:18:03 - INFO - server - authorization - 200
+29/Jan/2022 13:20:17 - INFO - server - Connected:('127.0.0.1', 51175)
+29/Jan/2022 13:20:33 - INFO - server - authorization - 200
+29/Jan/2022 13:22:01 - INFO - server - Connected:('127.0.0.1', 51186)
+29/Jan/2022 13:22:17 - INFO - server - authorization - 200
+29/Jan/2022 13:23:58 - INFO - server - Disconnected:('127.0.0.1', 51186)
+29/Jan/2022 13:23:59 - INFO - server - Connected:('127.0.0.1', 51196)
+29/Jan/2022 13:24:17 - INFO - server - authorization - 200
+29/Jan/2022 13:25:07 - INFO - server - Connected:('127.0.0.1', 51206)
+29/Jan/2022 13:25:19 - INFO - server - authorization - 200
+29/Jan/2022 13:26:48 - INFO - server - get - 200
+29/Jan/2022 13:30:47 - INFO - server - Connected:('127.0.0.1', 51247)
+29/Jan/2022 13:30:52 - INFO - server - Disconnected:('127.0.0.1', 51247)
+29/Jan/2022 13:32:18 - INFO - server - Connected:('127.0.0.1', 51266)
+29/Jan/2022 13:33:43 - INFO - server - Connected:('127.0.0.1', 51291)
+29/Jan/2022 13:34:10 - INFO - server - Disconnected:('127.0.0.1', 51291)
+29/Jan/2022 13:34:52 - INFO - server - Connected:('127.0.0.1', 51308)
+29/Jan/2022 13:37:54 - INFO - server - Connected:('127.0.0.1', 51372)
+29/Jan/2022 13:39:08 - INFO - server - Connected:('127.0.0.1', 51396)
+29/Jan/2022 13:41:12 - INFO - server - add - 200
+29/Jan/2022 13:52:00 - INFO - server - Connected:('127.0.0.1', 51493)
+29/Jan/2022 13:52:19 - INFO - server - authorization - 200
+29/Jan/2022 13:52:31 - INFO - server - authorization - 200
+29/Jan/2022 13:52:38 - INFO - server - Disconnected:('127.0.0.1', 51493)
+29/Jan/2022 13:52:39 - INFO - server - Connected:('127.0.0.1', 51510)
+29/Jan/2022 13:53:12 - INFO - server - Disconnected:('127.0.0.1', 51510)
+29/Jan/2022 13:53:17 - INFO - server - Connected:('127.0.0.1', 51515)
+29/Jan/2022 13:53:37 - INFO - server - authorization - 200
+29/Jan/2022 13:55:19 - INFO - server - Disconnected:('127.0.0.1', 51515)
+29/Jan/2022 13:55:20 - INFO - server - Connected:('127.0.0.1', 51565)
+29/Jan/2022 13:56:09 - INFO - server - Connected:('127.0.0.1', 51578)
+29/Jan/2022 13:56:20 - INFO - server - authorization - 200
+29/Jan/2022 14:11:19 - INFO - server - Connected:('127.0.0.1', 51629)
+29/Jan/2022 14:11:50 - INFO - server - Connected:('127.0.0.1', 51632)
+29/Jan/2022 14:12:07 - INFO - server - authorization - 200
+29/Jan/2022 14:12:35 - INFO - server - Disconnected:('127.0.0.1', 51632)
+29/Jan/2022 14:12:36 - INFO - server - Connected:('127.0.0.1', 51634)
+29/Jan/2022 14:12:43 - INFO - server - authorization - 200
+29/Jan/2022 14:16:06 - INFO - server - Connected:('127.0.0.1', 51647)
+29/Jan/2022 14:16:11 - INFO - server - authorization - 200
+29/Jan/2022 14:16:26 - INFO - server - edit - 200
+29/Jan/2022 14:16:34 - INFO - server - get - 200
+29/Jan/2022 14:17:03 - INFO - server - Disconnected:('127.0.0.1', 51647)
+29/Jan/2022 14:17:15 - INFO - server - Connected:('127.0.0.1', 51658)
+29/Jan/2022 14:17:28 - INFO - server - authorization - 200
+29/Jan/2022 14:21:55 - INFO - server - Connected:('127.0.0.1', 51669)
+29/Jan/2022 14:22:12 - INFO - server - authorization - 200
+29/Jan/2022 14:24:14 - INFO - server - Connected:('127.0.0.1', 51676)
+29/Jan/2022 14:24:18 - INFO - server - authorization - 200
+29/Jan/2022 14:24:30 - INFO - server - edit - 200
+29/Jan/2022 14:24:33 - INFO - server - get - 200
+29/Jan/2022 15:11:27 - INFO - server - Connected:('127.0.0.1', 51908)
+29/Jan/2022 15:11:34 - INFO - server - authorization - 200
+29/Jan/2022 15:11:36 - INFO - server - get - 200
+29/Jan/2022 15:12:25 - INFO - server - Disconnected:('127.0.0.1', 51908)
+29/Jan/2022 15:16:01 - INFO - server - Connected:('127.0.0.1', 51933)
+29/Jan/2022 15:16:10 - INFO - server - authorization - 404
+29/Jan/2022 15:16:23 - INFO - server - authorization - 200
+29/Jan/2022 15:17:29 - INFO - server - Connected:('127.0.0.1', 51945)
+29/Jan/2022 15:17:38 - INFO - server - authorization - 200
+29/Jan/2022 15:18:19 - INFO - server - Connected:('127.0.0.1', 51954)
+29/Jan/2022 15:18:30 - INFO - server - authorization - 200
+29/Jan/2022 15:19:14 - INFO - server - get_objects - 200
+29/Jan/2022 15:42:30 - INFO - server - Connected:('127.0.0.1', 52042)
+29/Jan/2022 15:42:40 - INFO - server - authorization - 404
+29/Jan/2022 15:43:02 - INFO - server - authorization - 404
+29/Jan/2022 15:43:09 - INFO - server - authorization - 404
+29/Jan/2022 15:43:18 - INFO - server - Connected:('127.0.0.1', 52044)
+29/Jan/2022 15:43:28 - INFO - server - authorization - 200
+29/Jan/2022 15:43:35 - INFO - server - get - 200
+29/Jan/2022 15:43:41 - INFO - server - get_objects - 200
+29/Jan/2022 15:44:05 - INFO - server - edit - 200
+29/Jan/2022 15:44:07 - INFO - server - get - 200
+29/Jan/2022 15:44:14 - INFO - server - delete - 200
+29/Jan/2022 15:45:09 - INFO - server - Connected:('127.0.0.1', 52053)
+29/Jan/2022 15:45:09 - INFO - server - Disconnected:('127.0.0.1', 52053)
+29/Jan/2022 15:47:51 - INFO - server - Connected:('127.0.0.1', 52186)
+29/Jan/2022 15:47:51 - INFO - server - Disconnected:('127.0.0.1', 52186)
+29/Jan/2022 15:48:10 - INFO - server - Connected:('127.0.0.1', 52190)
+29/Jan/2022 15:48:10 - INFO - server - Disconnected:('127.0.0.1', 52190)
+29/Jan/2022 15:48:15 - INFO - server - Connected:('127.0.0.1', 52191)
+29/Jan/2022 15:48:15 - INFO - server - Disconnected:('127.0.0.1', 52191)
+29/Jan/2022 15:49:12 - INFO - server - Connected:('127.0.0.1', 52199)
+29/Jan/2022 15:50:05 - INFO - server - Disconnected:('127.0.0.1', 52199)
+29/Jan/2022 15:50:05 - INFO - server - Connected:('127.0.0.1', 52208)
+29/Jan/2022 15:50:05 - INFO - server - Disconnected:('127.0.0.1', 52208)
+29/Jan/2022 15:50:12 - INFO - server - Connected:('127.0.0.1', 52209)
+29/Jan/2022 15:50:23 - INFO - server - authorization - 200
+29/Jan/2022 15:51:00 - INFO - server - Connected:('127.0.0.1', 52224)
+29/Jan/2022 15:51:56 - INFO - server - authorization - 200
+29/Jan/2022 15:54:23 - INFO - server - Disconnected:('127.0.0.1', 52224)
+29/Jan/2022 15:54:24 - INFO - server - Connected:('127.0.0.1', 52257)
+29/Jan/2022 15:54:36 - INFO - server - authorization - 200
+29/Jan/2022 15:54:54 - INFO - server - delete - 200
+29/Jan/2022 16:02:49 - INFO - server - Connected:('127.0.0.1', 52312)
+29/Jan/2022 16:03:41 - INFO - server - authorization - 404
+29/Jan/2022 16:03:56 - INFO - server - Connected:('127.0.0.1', 52333)
+29/Jan/2022 16:04:11 - INFO - server - authorization - 404
+29/Jan/2022 16:05:04 - INFO - server - authorization - 404
+29/Jan/2022 16:06:28 - INFO - server - authorization - 404
+29/Jan/2022 16:07:48 - INFO - server - authorization - 404
+29/Jan/2022 16:08:10 - INFO - server - authorization - 200
+29/Jan/2022 16:10:13 - INFO - server - Connected:('127.0.0.1', 52445)
+29/Jan/2022 16:10:30 - INFO - server - authorization - 200
+29/Jan/2022 16:12:19 - INFO - server - get_objects - 200
+29/Jan/2022 16:12:19 - INFO - server - Disconnected:('127.0.0.1', 52445)
+29/Jan/2022 16:12:24 - INFO - server - Connected:('127.0.0.1', 52493)
+29/Jan/2022 16:12:30 - INFO - server - Disconnected:('127.0.0.1', 52493)
+29/Jan/2022 16:12:31 - INFO - server - Connected:('127.0.0.1', 52498)
+29/Jan/2022 16:12:59 - INFO - server - authorization - 200
+29/Jan/2022 16:13:08 - INFO - server - get_objects - 200
+29/Jan/2022 16:13:22 - INFO - server - Disconnected:('127.0.0.1', 52498)
+29/Jan/2022 16:13:33 - INFO - server - Connected:('127.0.0.1', 52513)
+29/Jan/2022 16:13:39 - INFO - server - Disconnected:('127.0.0.1', 52513)
+29/Jan/2022 16:13:46 - INFO - server - Connected:('127.0.0.1', 52518)
+29/Jan/2022 16:13:55 - INFO - server - authorization - 200
+29/Jan/2022 16:14:33 - INFO - server - Connected:('127.0.0.1', 52527)
+29/Jan/2022 16:14:41 - INFO - server - authorization - 200
+29/Jan/2022 16:15:04 - INFO - server - get_objects - 200
+29/Jan/2022 16:16:16 - INFO - server - get_objects - 200
+29/Jan/2022 16:18:07 - INFO - server - Connected:('127.0.0.1', 52539)
+29/Jan/2022 16:18:14 - INFO - server - authorization - 404
+29/Jan/2022 16:18:25 - INFO - server - authorization - 200
+29/Jan/2022 16:18:27 - INFO - server - Disconnected:('127.0.0.1', 52539)
+29/Jan/2022 16:18:53 - INFO - server - Connected:('127.0.0.1', 52542)
+29/Jan/2022 16:19:06 - INFO - server - authorization - 200
+29/Jan/2022 16:38:04 - INFO - server - Connected:('127.0.0.1', 62214)
+29/Jan/2022 16:38:26 - INFO - server - authorization - 200
+29/Jan/2022 16:39:07 - INFO - server - Connected:('127.0.0.1', 62230)
+29/Jan/2022 16:39:16 - INFO - server - Disconnected:('127.0.0.1', 62230)
+29/Jan/2022 16:39:21 - INFO - server - Connected:('127.0.0.1', 62236)
+29/Jan/2022 16:39:34 - INFO - server - authorization - 200
+29/Jan/2022 16:40:36 - INFO - server - Connected:('127.0.0.1', 62253)
+29/Jan/2022 16:40:56 - INFO - server - authorization - 200
+29/Jan/2022 16:41:53 - INFO - server - Connected:('127.0.0.1', 62263)
+29/Jan/2022 16:42:01 - INFO - server - authorization - 404
+29/Jan/2022 16:42:10 - INFO - server - authorization - 200
+29/Jan/2022 17:01:12 - INFO - server - Connected:('127.0.0.1', 55401)
+29/Jan/2022 17:01:16 - INFO - server - Disconnected:('127.0.0.1', 55401)
+29/Jan/2022 17:17:27 - INFO - server - Connected:('127.0.0.1', 56030)
+29/Jan/2022 17:19:52 - INFO - server - Disconnected:('127.0.0.1', 56030)
+29/Jan/2022 17:19:53 - INFO - server - Connected:('127.0.0.1', 56044)
+29/Jan/2022 17:19:54 - INFO - server - Disconnected:('127.0.0.1', 56044)
+29/Jan/2022 17:20:25 - INFO - server - Connected:('127.0.0.1', 56046)
+29/Jan/2022 17:20:27 - INFO - server - Disconnected:('127.0.0.1', 56046)
+02/Feb/2022 17:49:20 - INFO - server - Connected:('127.0.0.1', 57420)
+02/Feb/2022 17:49:26 - INFO - server - Disconnected:('127.0.0.1', 57420)
+02/Feb/2022 17:50:00 - INFO - server - Connected:('127.0.0.1', 57432)
+02/Feb/2022 17:52:02 - INFO - server - Connected:('127.0.0.1', 57465)
+02/Feb/2022 17:52:55 - INFO - server - Connected:('127.0.0.1', 57483)
+02/Feb/2022 17:53:00 - INFO - server - authorization - 200
+02/Feb/2022 17:55:14 - INFO - server - Connected:('127.0.0.1', 57495)
+02/Feb/2022 18:32:07 - INFO - server - Connected:('127.0.0.1', 56928)
+02/Feb/2022 18:32:11 - INFO - server - authorization - 404
+02/Feb/2022 18:33:19 - INFO - server - Connected:('127.0.0.1', 56950)
+02/Feb/2022 18:33:24 - INFO - server - authorization - 404
+04/Feb/2022 12:22:38 - INFO - server - Connected:('127.0.0.1', 51950)
+04/Feb/2022 12:22:47 - INFO - server - Disconnected:('127.0.0.1', 51950)
+04/Feb/2022 12:25:14 - INFO - server - Connected:('127.0.0.1', 51956)
+04/Feb/2022 12:25:14 - INFO - server - Disconnected:('127.0.0.1', 51956)
+04/Feb/2022 12:26:19 - INFO - server - Connected:('127.0.0.1', 51960)
+04/Feb/2022 12:26:28 - INFO - server - Disconnected:('127.0.0.1', 51960)
+04/Feb/2022 12:31:02 - INFO - server - Connected:('127.0.0.1', 52013)
+04/Feb/2022 12:31:07 - INFO - server - Disconnected:('127.0.0.1', 52013)
+04/Feb/2022 12:34:45 - INFO - server - Connected:('127.0.0.1', 52057)
+04/Feb/2022 12:37:08 - INFO - server - Disconnected:('127.0.0.1', 52057)
+04/Feb/2022 12:37:09 - INFO - server - Connected:('127.0.0.1', 52076)
+04/Feb/2022 12:45:23 - INFO - server - Connected:('127.0.0.1', 52100)
+04/Feb/2022 12:45:33 - INFO - server - Disconnected:('127.0.0.1', 52100)
+04/Feb/2022 12:46:10 - INFO - server - Connected:('127.0.0.1', 52102)
+04/Feb/2022 12:46:18 - INFO - server - Disconnected:('127.0.0.1', 52102)
+04/Feb/2022 12:46:40 - INFO - server - Connected:('127.0.0.1', 52104)
+04/Feb/2022 12:46:48 - INFO - server - authorization - 200
+04/Feb/2022 13:01:57 - INFO - server - Disconnected:('127.0.0.1', 52104)
+04/Feb/2022 13:01:57 - INFO - server - Connected:('127.0.0.1', 52146)
+04/Feb/2022 13:02:07 - INFO - server - authorization - 200
+04/Feb/2022 13:03:13 - INFO - server - Disconnected:('127.0.0.1', 52146)
+04/Feb/2022 13:03:14 - INFO - server - Connected:('127.0.0.1', 52155)
+04/Feb/2022 13:03:30 - INFO - server - authorization - 200
+04/Feb/2022 13:08:20 - INFO - server - Disconnected:('127.0.0.1', 52155)
+04/Feb/2022 13:08:21 - INFO - server - Connected:('127.0.0.1', 52173)
+04/Feb/2022 13:09:02 - INFO - server - authorization - 200
+04/Feb/2022 13:10:11 - INFO - server - Disconnected:('127.0.0.1', 52173)
+04/Feb/2022 13:10:11 - INFO - server - Connected:('127.0.0.1', 52179)
+04/Feb/2022 13:10:19 - INFO - server - Disconnected:('127.0.0.1', 52179)
+04/Feb/2022 13:14:09 - INFO - server - Connected:('127.0.0.1', 52195)
+04/Feb/2022 13:14:20 - INFO - server - Disconnected:('127.0.0.1', 52195)
+04/Feb/2022 13:15:20 - INFO - server - Connected:('127.0.0.1', 52209)
+04/Feb/2022 13:15:32 - INFO - server - Disconnected:('127.0.0.1', 52209)
+04/Feb/2022 13:16:12 - INFO - server - Connected:('127.0.0.1', 52234)
+04/Feb/2022 13:17:30 - INFO - server - Disconnected:('127.0.0.1', 52234)
+04/Feb/2022 13:17:31 - INFO - server - Connected:('127.0.0.1', 52252)
+04/Feb/2022 13:17:39 - INFO - server - authorization - 200
+04/Feb/2022 13:18:05 - INFO - server - Disconnected:('127.0.0.1', 52252)
+04/Feb/2022 13:18:05 - INFO - server - Connected:('127.0.0.1', 52257)
+04/Feb/2022 13:18:20 - INFO - server - authorization - 200
+04/Feb/2022 13:58:37 - INFO - server - add - 200
+04/Feb/2022 14:00:19 - INFO - server - get - 200
+04/Feb/2022 14:00:37 - INFO - server - Disconnected:('127.0.0.1', 52257)
+04/Feb/2022 14:00:38 - INFO - server - Connected:('127.0.0.1', 52423)
+04/Feb/2022 14:01:17 - INFO - server - add - 200
+04/Feb/2022 14:02:00 - INFO - server - Disconnected:('127.0.0.1', 52423)
+04/Feb/2022 14:05:59 - INFO - server - Connected:('127.0.0.1', 52487)
+04/Feb/2022 14:06:17 - INFO - server - Disconnected:('127.0.0.1', 52487)
+04/Feb/2022 14:07:54 - INFO - server - Connected:('127.0.0.1', 52502)
+04/Feb/2022 14:18:52 - INFO - server - authorization - 200
+04/Feb/2022 14:18:58 - INFO - server - get_objects - 200
+04/Feb/2022 14:19:44 - INFO - server - Disconnected:('127.0.0.1', 52502)
+04/Feb/2022 14:19:48 - INFO - server - Connected:('127.0.0.1', 52640)
+04/Feb/2022 14:20:01 - INFO - server - authorization - 404
+04/Feb/2022 14:20:10 - INFO - server - authorization - 404
+04/Feb/2022 14:20:21 - INFO - server - authorization - 200
+04/Feb/2022 14:24:59 - INFO - server - Disconnected:('127.0.0.1', 52640)
+04/Feb/2022 14:35:51 - INFO - server - Connected:('127.0.0.1', 52765)
+04/Feb/2022 14:36:18 - INFO - server - authorization - 200
+04/Feb/2022 14:37:20 - INFO - server - Disconnected:('127.0.0.1', 52765)
+04/Feb/2022 14:37:32 - INFO - server - Connected:('127.0.0.1', 52779)
+04/Feb/2022 14:39:16 - INFO - server - Disconnected:('127.0.0.1', 52779)
+04/Feb/2022 14:39:16 - INFO - server - Connected:('127.0.0.1', 52794)
+04/Feb/2022 14:40:04 - INFO - server - Disconnected:('127.0.0.1', 52794)
+04/Feb/2022 14:40:05 - INFO - server - Connected:('127.0.0.1', 52800)
+04/Feb/2022 14:40:46 - INFO - server - Disconnected:('127.0.0.1', 52800)
+04/Feb/2022 14:40:47 - INFO - server - Connected:('127.0.0.1', 52805)
+04/Feb/2022 14:42:05 - INFO - server - Disconnected:('127.0.0.1', 52805)
+04/Feb/2022 14:42:05 - INFO - server - Connected:('127.0.0.1', 52815)
+04/Feb/2022 14:50:58 - INFO - server - Disconnected:('127.0.0.1', 52815)
+04/Feb/2022 14:50:59 - INFO - server - Connected:('127.0.0.1', 52849)
+04/Feb/2022 14:52:33 - INFO - server - Disconnected:('127.0.0.1', 52849)
+04/Feb/2022 14:52:34 - INFO - server - Connected:('127.0.0.1', 52863)
+04/Feb/2022 14:54:00 - INFO - server - Disconnected:('127.0.0.1', 52863)
+04/Feb/2022 14:54:01 - INFO - server - Connected:('127.0.0.1', 52872)
+04/Feb/2022 14:56:59 - INFO - server - Disconnected:('127.0.0.1', 52872)
+04/Feb/2022 14:57:00 - INFO - server - Connected:('127.0.0.1', 52886)
+04/Feb/2022 14:58:34 - INFO - server - authorization - 200
+04/Feb/2022 15:15:11 - INFO - server - Connected:('127.0.0.1', 53118)
+04/Feb/2022 15:18:09 - INFO - server - authorization - 200
+05/Feb/2022 00:13:02 - INFO - server - Connected:('127.0.0.1', 65534)
+05/Feb/2022 00:14:01 - INFO - server - add - 200
+05/Feb/2022 00:16:10 - INFO - server - Connected:('127.0.0.1', 49170)
+05/Feb/2022 00:18:19 - INFO - server - Disconnected:('127.0.0.1', 49170)
+05/Feb/2022 00:18:20 - INFO - server - Connected:('127.0.0.1', 49182)
+05/Feb/2022 00:19:44 - INFO - server - add - 200
+05/Feb/2022 00:22:47 - INFO - server - Disconnected:('127.0.0.1', 49182)
+05/Feb/2022 00:22:47 - INFO - server - Connected:('127.0.0.1', 49192)
+05/Feb/2022 00:23:49 - INFO - server - add - 200
+05/Feb/2022 00:25:23 - INFO - server - Connected:('127.0.0.1', 49218)
+05/Feb/2022 00:28:36 - INFO - server - add - 200
+05/Feb/2022 00:36:47 - INFO - server - Connected:('127.0.0.1', 49267)
+05/Feb/2022 00:39:09 - INFO - server - authorization - 404
+05/Feb/2022 00:40:41 - INFO - server - Disconnected:('127.0.0.1', 49267)
+05/Feb/2022 00:40:41 - INFO - server - Connected:('127.0.0.1', 49284)
+05/Feb/2022 00:40:44 - INFO - server - authorization - 200
+05/Feb/2022 00:50:08 - INFO - server - Connected:('127.0.0.1', 49313)
+05/Feb/2022 00:51:17 - INFO - server - add - 200
+05/Feb/2022 00:51:17 - INFO - server - Disconnected:('127.0.0.1', 49313)
+05/Feb/2022 00:52:19 - INFO - server - Connected:('127.0.0.1', 49317)
+05/Feb/2022 00:53:13 - INFO - server - add - 200
+05/Feb/2022 00:53:13 - INFO - server - Disconnected:('127.0.0.1', 49317)
+05/Feb/2022 00:54:08 - INFO - server - Connected:('127.0.0.1', 49319)
+05/Feb/2022 00:54:49 - INFO - server - add - 200
+05/Feb/2022 00:57:56 - INFO - server - Disconnected:('127.0.0.1', 49319)
+05/Feb/2022 00:58:00 - INFO - server - Connected:('127.0.0.1', 49342)
+05/Feb/2022 00:58:08 - INFO - server - authorization - 404
+05/Feb/2022 00:58:19 - INFO - server - authorization - 404
+05/Feb/2022 00:58:54 - INFO - server - Connected:('127.0.0.1', 49352)
+05/Feb/2022 01:00:26 - INFO - server - authorization - 200
+05/Feb/2022 01:02:20 - INFO - server - Disconnected:('127.0.0.1', 49352)
+05/Feb/2022 01:02:21 - INFO - server - Connected:('127.0.0.1', 49362)
+05/Feb/2022 01:02:30 - INFO - server - authorization - 200
+05/Feb/2022 01:02:57 - INFO - server - authorization - 200
+05/Feb/2022 01:03:06 - INFO - server - Disconnected:('127.0.0.1', 49362)
+05/Feb/2022 01:03:07 - INFO - server - Connected:('127.0.0.1', 49375)
+05/Feb/2022 01:03:26 - INFO - server - Connected:('127.0.0.1', 49377)
+05/Feb/2022 01:03:32 - INFO - server - authorization - 404
+05/Feb/2022 01:23:11 - INFO - server - Connected:('127.0.0.1', 49570)
+05/Feb/2022 01:23:21 - INFO - server - authorization - 404
+05/Feb/2022 01:23:45 - INFO - server - Connected:('127.0.0.1', 49582)
+05/Feb/2022 01:24:40 - INFO - server - authorization - 200
+05/Feb/2022 01:24:51 - INFO - server - Disconnected:('127.0.0.1', 49582)
+05/Feb/2022 01:25:03 - INFO - server - Connected:('127.0.0.1', 49591)
+05/Feb/2022 01:25:12 - INFO - server - authorization - 200
+05/Feb/2022 01:28:02 - INFO - server - Connected:('127.0.0.1', 49602)
+05/Feb/2022 01:28:27 - INFO - server - Disconnected:('127.0.0.1', 49602)
+05/Feb/2022 01:28:28 - INFO - server - Connected:('127.0.0.1', 49605)
+05/Feb/2022 01:29:22 - INFO - server - add - 200
+05/Feb/2022 01:31:58 - INFO - server - edit - 200
+05/Feb/2022 01:36:33 - INFO - server - Connected:('127.0.0.1', 49635)
+05/Feb/2022 01:36:51 - INFO - server - authorization - 200
+05/Feb/2022 01:37:16 - INFO - server - edit - 200
+05/Feb/2022 02:13:58 - INFO - server - Connected:('127.0.0.1', 49864)
+05/Feb/2022 02:16:53 - INFO - server - authorization - 404
+05/Feb/2022 02:18:53 - INFO - server - Connected:('127.0.0.1', 49882)
+05/Feb/2022 02:20:54 - INFO - server - Connected:('127.0.0.1', 49899)
+05/Feb/2022 02:21:42 - INFO - server - authorization - 200
+05/Feb/2022 02:22:05 - INFO - server - Connected:('127.0.0.1', 49900)
+05/Feb/2022 02:22:12 - INFO - server - authorization - 200
+05/Feb/2022 02:22:17 - INFO - server - get - 200
+05/Feb/2022 02:23:20 - INFO - server - Connected:('127.0.0.1', 49902)
+05/Feb/2022 02:23:25 - INFO - server - authorization - 200
+05/Feb/2022 02:23:36 - INFO - server - get - 200
+05/Feb/2022 02:24:18 - INFO - server - get_objects - 200
+05/Feb/2022 02:26:34 - INFO - server - Connected:('127.0.0.1', 49919)
+05/Feb/2022 02:26:44 - INFO - server - authorization - 200
+05/Feb/2022 02:27:54 - INFO - server - get_objects - 200
+05/Feb/2022 02:28:43 - INFO - server - Connected:('127.0.0.1', 49933)
+05/Feb/2022 02:29:01 - INFO - server - authorization - 200
+05/Feb/2022 02:30:54 - INFO - server - get_objects - 200
+05/Feb/2022 02:32:09 - INFO - server - Connected:('127.0.0.1', 49950)
+05/Feb/2022 02:32:17 - INFO - server - authorization - 200
+05/Feb/2022 02:32:20 - INFO - server - get_objects - 200
+05/Feb/2022 16:33:17 - INFO - server - Connected:('127.0.0.1', 53621)
+05/Feb/2022 16:33:27 - INFO - server - authorization - 200
+05/Feb/2022 16:37:31 - INFO - server - get_objects - 200
+05/Feb/2022 16:39:26 - INFO - server - Connected:('127.0.0.1', 53632)
+05/Feb/2022 16:40:05 - INFO - server - authorization - 200
+05/Feb/2022 16:45:32 - INFO - server - get_objects - 200
+05/Feb/2022 16:49:21 - INFO - server - Connected:('127.0.0.1', 53672)
+05/Feb/2022 16:49:29 - INFO - server - authorization - 200
+05/Feb/2022 16:56:32 - INFO - server - get_objects - 200
+05/Feb/2022 17:00:37 - INFO - server - Connected:('127.0.0.1', 53733)
+05/Feb/2022 17:00:47 - INFO - server - authorization - 200
+05/Feb/2022 17:01:41 - INFO - server - get_objects - 200
+05/Feb/2022 17:03:00 - INFO - server - Connected:('127.0.0.1', 53736)
+05/Feb/2022 17:03:13 - INFO - server - authorization - 200
+05/Feb/2022 17:03:16 - INFO - server - get_objects - 200
+05/Feb/2022 17:03:16 - INFO - server - Disconnected:('127.0.0.1', 53736)
+05/Feb/2022 17:03:56 - INFO - server - Connected:('127.0.0.1', 53741)
+05/Feb/2022 17:04:03 - INFO - server - authorization - 200
+05/Feb/2022 17:04:17 - INFO - server - get_objects - 200
+05/Feb/2022 20:18:40 - INFO - server - Connected:('127.0.0.1', 53898)
+05/Feb/2022 20:18:51 - INFO - server - authorization - 200
+05/Feb/2022 20:19:02 - INFO - server - get_objects - 200
+05/Feb/2022 20:20:35 - INFO - server - Disconnected:('127.0.0.1', 53898)
+05/Feb/2022 20:26:50 - INFO - server - Connected:('127.0.0.1', 53906)
+05/Feb/2022 20:27:40 - INFO - server - authorization - 200
+05/Feb/2022 20:27:58 - INFO - server - get_objects - 200
+05/Feb/2022 20:31:30 - INFO - server - Disconnected:('127.0.0.1', 53906)
+05/Feb/2022 20:31:31 - INFO - server - Connected:('127.0.0.1', 53929)
+05/Feb/2022 20:31:41 - INFO - server - authorization - 200
+05/Feb/2022 20:32:09 - INFO - server - get_objects - 200
+05/Feb/2022 20:35:34 - INFO - server - Disconnected:('127.0.0.1', 53929)
+05/Feb/2022 20:35:35 - INFO - server - Connected:('127.0.0.1', 53941)
+05/Feb/2022 20:36:13 - INFO - server - authorization - 200
+05/Feb/2022 20:36:30 - INFO - server - get_objects - 200
+05/Feb/2022 20:37:37 - INFO - server - Disconnected:('127.0.0.1', 53941)
+05/Feb/2022 20:37:38 - INFO - server - Connected:('127.0.0.1', 53949)
+05/Feb/2022 20:37:44 - INFO - server - authorization - 200
+05/Feb/2022 20:37:56 - INFO - server - get_objects - 200
+05/Feb/2022 20:40:58 - INFO - server - Disconnected:('127.0.0.1', 53949)
+05/Feb/2022 20:40:59 - INFO - server - Connected:('127.0.0.1', 53957)
+05/Feb/2022 20:41:13 - INFO - server - authorization - 200
+05/Feb/2022 20:41:40 - INFO - server - get_objects - 200
+05/Feb/2022 20:54:47 - INFO - server - Connected:('127.0.0.1', 54285)
+05/Feb/2022 20:55:04 - INFO - server - authorization - 200
+05/Feb/2022 20:55:20 - INFO - server - get_objects - 200
+05/Feb/2022 21:02:22 - INFO - server - Disconnected:('127.0.0.1', 54285)
+05/Feb/2022 21:02:23 - INFO - server - Connected:('127.0.0.1', 54435)
+05/Feb/2022 21:02:30 - INFO - server - authorization - 200
+05/Feb/2022 21:02:41 - INFO - server - get_objects - 200
+05/Feb/2022 21:03:57 - INFO - server - Disconnected:('127.0.0.1', 54435)
+05/Feb/2022 21:03:58 - INFO - server - Connected:('127.0.0.1', 54448)
+05/Feb/2022 21:04:09 - INFO - server - authorization - 200
+05/Feb/2022 21:04:11 - INFO - server - get_objects - 200
+06/Feb/2022 13:26:10 - INFO - server - Connected:('127.0.0.1', 50380)
+06/Feb/2022 13:26:17 - INFO - server - authorization - 200
+06/Feb/2022 14:06:09 - INFO - server - get_objects - 500
+06/Feb/2022 14:06:23 - INFO - server - Disconnected:('127.0.0.1', 50380)
+06/Feb/2022 14:06:24 - INFO - server - Connected:('127.0.0.1', 50452)
+06/Feb/2022 14:07:18 - INFO - server - Connected:('127.0.0.1', 50466)
+06/Feb/2022 14:07:25 - INFO - server - authorization - 200
+06/Feb/2022 14:13:00 - INFO - server - get_objects - 500
+06/Feb/2022 14:13:00 - INFO - server - Disconnected:('127.0.0.1', 50466)
+06/Feb/2022 14:13:07 - INFO - server - Connected:('127.0.0.1', 50511)
+06/Feb/2022 14:13:11 - INFO - server - authorization - 200
+06/Feb/2022 14:14:59 - INFO - server - get_objects - 500
+06/Feb/2022 14:16:30 - INFO - server - Connected:('127.0.0.1', 50522)
+06/Feb/2022 14:16:35 - INFO - server - authorization - 200
+06/Feb/2022 14:17:50 - INFO - server - get_objects - 500
+06/Feb/2022 14:17:51 - INFO - server - Disconnected:('127.0.0.1', 50522)
+06/Feb/2022 14:17:52 - INFO - server - Connected:('127.0.0.1', 50530)
+06/Feb/2022 14:18:12 - INFO - server - Connected:('127.0.0.1', 50539)
+06/Feb/2022 14:18:18 - INFO - server - authorization - 200
+06/Feb/2022 14:19:54 - INFO - server - get_objects - 500
+06/Feb/2022 14:19:54 - INFO - server - Disconnected:('127.0.0.1', 50539)
+06/Feb/2022 14:20:08 - INFO - server - Connected:('127.0.0.1', 50557)
+06/Feb/2022 14:20:14 - INFO - server - authorization - 200
+06/Feb/2022 14:21:17 - INFO - server - Connected:('127.0.0.1', 50566)
+06/Feb/2022 14:21:23 - INFO - server - authorization - 200
+06/Feb/2022 14:22:45 - INFO - server - get_objects - 500
+06/Feb/2022 14:22:45 - INFO - server - Disconnected:('127.0.0.1', 50566)
+06/Feb/2022 14:22:52 - INFO - server - Connected:('127.0.0.1', 50579)
+06/Feb/2022 14:23:06 - INFO - server - authorization - 200
+06/Feb/2022 14:24:10 - INFO - server - get_objects - 500
+06/Feb/2022 14:24:10 - INFO - server - Disconnected:('127.0.0.1', 50579)
+06/Feb/2022 14:24:17 - INFO - server - Connected:('127.0.0.1', 50593)
+06/Feb/2022 14:24:22 - INFO - server - authorization - 200
+06/Feb/2022 14:24:52 - INFO - server - get_objects - 500
+06/Feb/2022 14:24:52 - INFO - server - Disconnected:('127.0.0.1', 50593)
+06/Feb/2022 14:24:58 - INFO - server - Connected:('127.0.0.1', 50606)
+06/Feb/2022 14:25:03 - INFO - server - authorization - 200
+06/Feb/2022 14:28:00 - INFO - server - get_objects - 500
+06/Feb/2022 14:28:00 - INFO - server - Disconnected:('127.0.0.1', 50606)
+06/Feb/2022 14:28:13 - INFO - server - Connected:('127.0.0.1', 50629)
+06/Feb/2022 14:28:20 - INFO - server - authorization - 200
+06/Feb/2022 14:30:34 - INFO - server - get_objects - 500
+06/Feb/2022 14:30:34 - INFO - server - Disconnected:('127.0.0.1', 50629)
+06/Feb/2022 14:30:49 - INFO - server - Connected:('127.0.0.1', 50666)
+06/Feb/2022 14:30:55 - INFO - server - authorization - 200
+06/Feb/2022 14:36:55 - INFO - server - Connected:('127.0.0.1', 50677)
+06/Feb/2022 14:37:02 - INFO - server - authorization - 200
+06/Feb/2022 14:37:56 - INFO - server - Connected:('127.0.0.1', 50690)
+06/Feb/2022 14:38:12 - INFO - server - authorization - 200
+06/Feb/2022 14:41:54 - INFO - server - get_objects - 500
+06/Feb/2022 14:42:00 - INFO - server - Connected:('127.0.0.1', 50701)
+06/Feb/2022 14:42:05 - INFO - server - authorization - 200
+06/Feb/2022 14:43:01 - INFO - server - get_objects - 500
+06/Feb/2022 14:43:01 - INFO - server - Disconnected:('127.0.0.1', 50701)
+06/Feb/2022 14:43:11 - INFO - server - Connected:('127.0.0.1', 50710)
+06/Feb/2022 14:43:17 - INFO - server - authorization - 200
+06/Feb/2022 14:45:35 - INFO - server - Connected:('127.0.0.1', 50739)
+06/Feb/2022 14:45:40 - INFO - server - authorization - 200
+06/Feb/2022 14:47:26 - INFO - server - get_objects - 500
+06/Feb/2022 14:47:26 - INFO - server - Disconnected:('127.0.0.1', 50739)
+06/Feb/2022 14:47:36 - INFO - server - Connected:('127.0.0.1', 50748)
+06/Feb/2022 14:47:42 - INFO - server - authorization - 200
+06/Feb/2022 14:50:43 - INFO - server - Connected:('127.0.0.1', 50759)
+06/Feb/2022 14:50:53 - INFO - server - authorization - 404
+06/Feb/2022 14:51:09 - INFO - server - authorization - 200
+06/Feb/2022 14:52:39 - INFO - server - Connected:('127.0.0.1', 50771)
+06/Feb/2022 14:52:44 - INFO - server - authorization - 200
+06/Feb/2022 14:56:39 - INFO - server - get_objects - 500
+06/Feb/2022 14:56:39 - INFO - server - Disconnected:('127.0.0.1', 50771)
+06/Feb/2022 14:56:46 - INFO - server - Connected:('127.0.0.1', 50783)
+06/Feb/2022 14:56:50 - INFO - server - authorization - 200
+06/Feb/2022 14:57:45 - INFO - server - get_objects - 500
+06/Feb/2022 14:57:45 - INFO - server - Disconnected:('127.0.0.1', 50783)
+06/Feb/2022 14:57:55 - INFO - server - Connected:('127.0.0.1', 50796)
+06/Feb/2022 14:58:01 - INFO - server - authorization - 200
+06/Feb/2022 15:00:21 - INFO - server - get_objects - 500
+06/Feb/2022 15:00:21 - INFO - server - Disconnected:('127.0.0.1', 50796)
+06/Feb/2022 15:00:30 - INFO - server - Connected:('127.0.0.1', 50810)
+06/Feb/2022 15:00:44 - INFO - server - authorization - 200
+06/Feb/2022 15:01:32 - INFO - server - get_objects - 200
+06/Feb/2022 15:34:06 - INFO - server - Server is running
+06/Feb/2022 15:34:08 - INFO - server - Connected:('127.0.0.1', 50860)
+06/Feb/2022 15:35:51 - INFO - server - Server is running
+06/Feb/2022 15:35:53 - INFO - server - Connected:('127.0.0.1', 50863)
+06/Feb/2022 15:46:26 - INFO - server - Server is running
+06/Feb/2022 15:46:31 - INFO - server - Connected:('127.0.0.1', 50877)
+06/Feb/2022 15:47:17 - INFO - server - Server is running
+06/Feb/2022 15:47:18 - INFO - server - Connected:('127.0.0.1', 50882)
+06/Feb/2022 15:50:01 - INFO - server - Server is running
+06/Feb/2022 15:50:03 - INFO - server - Connected:('127.0.0.1', 50897)
+06/Feb/2022 15:50:07 - INFO - server - authorization - 200
+06/Feb/2022 16:38:19 - INFO - server - Server is running
+06/Feb/2022 16:38:24 - INFO - server - Connected:('127.0.0.1', 51064)
+06/Feb/2022 16:38:28 - INFO - server - authorization - 200
+06/Feb/2022 16:38:31 - INFO - server - get - 200
+06/Feb/2022 16:38:31 - ERROR - server - Receiving Error!
+06/Feb/2022 16:38:31 - INFO - server - Disconnected:('127.0.0.1', 51064)
+06/Feb/2022 16:43:14 - INFO - server - Server is running
+06/Feb/2022 16:43:16 - INFO - server - Connected:('127.0.0.1', 51120)
+06/Feb/2022 16:43:20 - INFO - server - authorization - 200
+06/Feb/2022 16:43:22 - INFO - server - get - 200
+06/Feb/2022 16:43:49 - INFO - server - get_objects - 200
+06/Feb/2022 16:44:50 - ERROR - server - Receiving Error!
+06/Feb/2022 16:44:50 - INFO - server - Disconnected:('127.0.0.1', 51120)
+06/Feb/2022 16:44:50 - INFO - server - Connected:('127.0.0.1', 51122)
+06/Feb/2022 16:44:53 - INFO - server - authorization - 200
+06/Feb/2022 16:44:55 - INFO - server - get - 200
+06/Feb/2022 16:47:42 - ERROR - server - Receiving Error!
+06/Feb/2022 16:47:42 - INFO - server - get - 200
+06/Feb/2022 16:47:42 - ERROR - server - Receiving Error!
+06/Feb/2022 16:47:42 - INFO - server - Disconnected:('127.0.0.1', 51122)
+06/Feb/2022 16:47:52 - INFO - server - Connected:('127.0.0.1', 51126)
+06/Feb/2022 16:47:57 - WARNING - server - Not Found!
+06/Feb/2022 16:47:57 - INFO - server - authorization - 404
+06/Feb/2022 16:48:03 - ERROR - server - Server Error!
+06/Feb/2022 16:48:03 - INFO - server - delete - 500
+06/Feb/2022 16:48:17 - INFO - server - add - 200
+06/Feb/2022 16:52:28 - INFO - server - authorization - 200
+06/Feb/2022 16:52:33 - INFO - server - get - 200
+06/Feb/2022 16:52:34 - INFO - server - get_objects - 200
+06/Feb/2022 16:53:40 - ERROR - server - Server Error!
+06/Feb/2022 16:53:40 - INFO - server - get_objects - 500
+06/Feb/2022 16:53:40 - ERROR - server - Receiving Error!
+06/Feb/2022 16:53:40 - INFO - server - Disconnected:('127.0.0.1', 51126)
+06/Feb/2022 16:53:48 - INFO - server - Connected:('127.0.0.1', 51136)
+06/Feb/2022 16:53:51 - ERROR - server - Server Error!
+06/Feb/2022 16:53:51 - INFO - server - delete - 500
+06/Feb/2022 18:56:41 - INFO - server - Server is running
+06/Feb/2022 18:56:48 - INFO - server - Connected:('127.0.0.1', 63307)
+06/Feb/2022 18:58:27 - INFO - server - Server is running
+06/Feb/2022 18:58:31 - INFO - server - Connected:('127.0.0.1', 63323)
+06/Feb/2022 18:58:38 - WARNING - server - Not Found!
+06/Feb/2022 18:58:38 - INFO - server - authorization - 404
+06/Feb/2022 18:58:47 - INFO - server - authorization - 200
+06/Feb/2022 18:59:38 - INFO - server - Server is running
+06/Feb/2022 18:59:42 - INFO - server - Connected:('127.0.0.1', 63334)
+06/Feb/2022 18:59:47 - INFO - server - authorization - 200
+06/Feb/2022 19:03:04 - INFO - server - get_objects - 200
+06/Feb/2022 19:03:09 - ERROR - server - Receiving Error!
+06/Feb/2022 19:03:32 - INFO - server - Server is running
+06/Feb/2022 19:03:35 - INFO - server - Connected:('127.0.0.1', 63345)
+06/Feb/2022 19:05:02 - INFO - server - authorization - 200
+06/Feb/2022 19:05:56 - ERROR - server - Server Error!
+06/Feb/2022 19:05:56 - INFO - server - get_objects - 500
+06/Feb/2022 19:05:56 - ERROR - server - Receiving Error!
+06/Feb/2022 19:05:56 - INFO - server - Disconnected:('127.0.0.1', 63345)
+11/Feb/2022 22:52:45 - INFO - server - Server is running
+11/Feb/2022 22:53:13 - INFO - server - Connected:('127.0.0.1', 62345)
+11/Feb/2022 22:53:27 - ERROR - server - Receiving Error!
+11/Feb/2022 22:53:27 - INFO - server - Disconnected:('127.0.0.1', 62345)
+11/Feb/2022 22:53:28 - INFO - server - Connected:('127.0.0.1', 62347)
+11/Feb/2022 22:53:33 - INFO - server - authorization - 200
+11/Feb/2022 22:53:40 - INFO - server - get - 200
+11/Feb/2022 22:53:57 - INFO - server - authorization - 200
+11/Feb/2022 23:20:28 - ERROR - server - Receiving Error!
+11/Feb/2022 23:20:28 - INFO - server - Disconnected:('127.0.0.1', 62347)
+11/Feb/2022 23:20:28 - INFO - server - Connected:('127.0.0.1', 62477)
+11/Feb/2022 23:55:15 - INFO - server - authorization - 200
+11/Feb/2022 23:55:15 - ERROR - server - Receiving Error!
+11/Feb/2022 23:55:15 - INFO - server - Disconnected:('127.0.0.1', 62477)
+11/Feb/2022 23:56:04 - INFO - server - Connected:('127.0.0.1', 60033)
+11/Feb/2022 23:56:12 - INFO - server - authorization - 200
+11/Feb/2022 23:58:33 - ERROR - server - Receiving Error!
+11/Feb/2022 23:58:48 - INFO - server - Server is running
+11/Feb/2022 23:58:54 - INFO - server - Connected:('127.0.0.1', 60062)
+11/Feb/2022 23:59:02 - INFO - server - authorization - 200
+11/Feb/2022 23:59:26 - ERROR - server - Receiving Error!
+12/Feb/2022 00:00:18 - INFO - server - Server is running
+12/Feb/2022 00:00:22 - INFO - server - Connected:('127.0.0.1', 60103)
+12/Feb/2022 00:00:30 - INFO - server - authorization - 200
+12/Feb/2022 00:00:57 - ERROR - server - Receiving Error!
+12/Feb/2022 00:00:57 - INFO - server - Disconnected:('127.0.0.1', 60103)
+12/Feb/2022 00:01:07 - INFO - server - Server is running
+12/Feb/2022 00:01:10 - INFO - server - Connected:('127.0.0.1', 60115)
+12/Feb/2022 00:01:18 - INFO - server - authorization - 200
+12/Feb/2022 00:01:55 - ERROR - server - Receiving Error!
+12/Feb/2022 00:01:55 - INFO - server - Disconnected:('127.0.0.1', 60115)
+12/Feb/2022 00:01:56 - INFO - server - Connected:('127.0.0.1', 60125)
+12/Feb/2022 00:02:06 - INFO - server - authorization - 200
+12/Feb/2022 00:02:59 - ERROR - server - Receiving Error!
+12/Feb/2022 00:39:45 - INFO - server - Server is running
+12/Feb/2022 00:40:41 - INFO - server - Connected:('192.168.1.2', 64167)
+12/Feb/2022 00:41:14 - INFO - server - add - 200
+12/Feb/2022 00:41:37 - INFO - server - get - 200
+12/Feb/2022 00:41:46 - INFO - server - get_objects - 200
+12/Feb/2022 00:42:02 - INFO - server - get_favs - 200
+12/Feb/2022 00:42:10 - ERROR - server - Receiving Error!
+12/Feb/2022 00:42:10 - INFO - server - Disconnected:('192.168.1.2', 64167)
+12/Feb/2022 00:42:59 - INFO - server - Server is running
+12/Feb/2022 00:43:28 - INFO - server - Connected:('192.168.1.2', 64177)
+12/Feb/2022 00:44:02 - WARNING - server - Not Found!
+12/Feb/2022 00:44:02 - INFO - server - authorization - 404
+12/Feb/2022 00:44:32 - INFO - server - add - 200
+12/Feb/2022 00:46:04 - INFO - server - Server is running
+12/Feb/2022 00:46:07 - INFO - server - Server is running
+12/Feb/2022 00:46:10 - INFO - server - Connected:('192.168.1.7', 55240)
+12/Feb/2022 00:46:24 - WARNING - server - Not Found!
+12/Feb/2022 00:46:24 - INFO - server - authorization - 404
+12/Feb/2022 00:46:36 - INFO - server - add - 200
+12/Feb/2022 00:46:53 - INFO - server - authorization - 200
+12/Feb/2022 12:56:50 - ERROR - server - Receiving Error!
+12/Feb/2022 20:50:29 - INFO - server - Server is running
+12/Feb/2022 20:50:32 - INFO - server - Connected:('192.168.1.7', 51135)
+12/Feb/2022 20:51:20 - INFO - server - authorization - 200
+12/Feb/2022 20:51:49 - ERROR - server - Receiving Error!
+12/Feb/2022 20:51:49 - INFO - server - Disconnected:('192.168.1.7', 51135)
+12/Feb/2022 20:51:49 - INFO - server - Connected:('192.168.1.2', 60076)
+12/Feb/2022 20:51:49 - WARNING - server - Not Found!
+12/Feb/2022 20:51:49 - INFO - server - authorization - 404
+12/Feb/2022 20:52:16 - WARNING - server - Not Found!
+12/Feb/2022 20:52:16 - INFO - server - authorization - 404
+12/Feb/2022 20:53:20 - WARNING - server - Not Found!
+12/Feb/2022 20:53:20 - INFO - server - authorization - 404
+12/Feb/2022 20:53:42 - INFO - server - add - 200
+12/Feb/2022 20:54:24 - ERROR - server - Receiving Error!
+13/Feb/2022 14:24:10 - INFO - server - Server is running
+13/Feb/2022 14:27:58 - INFO - server - Server is running
+13/Feb/2022 14:28:04 - INFO - server - Connected:('192.168.1.7', 60231)
+13/Feb/2022 14:28:22 - INFO - server - authorization - 200
+13/Feb/2022 14:29:09 - ERROR - server - Receiving Error!
+13/Feb/2022 14:29:09 - INFO - server - Disconnected:('192.168.1.7', 60231)
+13/Feb/2022 14:29:09 - INFO - server - Connected:('192.168.1.7', 60241)
+13/Feb/2022 14:29:17 - INFO - server - authorization - 200
+13/Feb/2022 14:30:10 - ERROR - server - Receiving Error!
+13/Feb/2022 14:30:10 - INFO - server - Disconnected:('192.168.1.7', 60241)
+13/Feb/2022 14:30:11 - INFO - server - Connected:('192.168.1.7', 60243)
+13/Feb/2022 14:30:17 - INFO - server - authorization - 200
+13/Feb/2022 14:49:51 - INFO - server - Server is running
+13/Feb/2022 14:49:56 - INFO - server - Connected:('192.168.1.7', 60301)
+13/Feb/2022 14:50:08 - INFO - server - authorization - 200
+13/Feb/2022 14:52:37 - INFO - server - Server is running
+13/Feb/2022 14:52:41 - INFO - server - Connected:('192.168.1.7', 60313)
+13/Feb/2022 14:52:55 - INFO - server - Server is running
+13/Feb/2022 14:53:03 - INFO - server - Server is running
+13/Feb/2022 14:53:28 - INFO - server - Server is running
+13/Feb/2022 14:53:32 - INFO - server - Connected:('192.168.1.7', 60336)
+13/Feb/2022 14:54:09 - INFO - server - authorization - 200
+13/Feb/2022 14:58:41 - INFO - server - Server is running
+13/Feb/2022 14:58:44 - INFO - server - Connected:('192.168.1.7', 60354)
+13/Feb/2022 15:00:36 - INFO - server - Server is running
+13/Feb/2022 15:00:39 - INFO - server - Connected:('192.168.1.7', 60364)
+13/Feb/2022 15:11:10 - INFO - server - Server is running
+13/Feb/2022 15:11:16 - INFO - server - Connected:('192.168.1.7', 60406)
+13/Feb/2022 15:14:28 - INFO - server - Server is running
+13/Feb/2022 15:17:24 - INFO - server - Server is running
+13/Feb/2022 15:17:27 - INFO - server - Connected:('192.168.1.7', 60432)
+13/Feb/2022 15:18:28 - INFO - server - Server is running
+13/Feb/2022 15:18:33 - INFO - server - Connected:('192.168.1.7', 60441)
+13/Feb/2022 15:23:57 - INFO - server - Server is running
+13/Feb/2022 15:24:00 - INFO - server - Connected:('192.168.1.7', 60463)
+13/Feb/2022 15:26:36 - INFO - server - Server is running
+13/Feb/2022 15:26:41 - INFO - server - Connected:('192.168.1.7', 60495)
+13/Feb/2022 15:28:41 - INFO - server - Server is running
+13/Feb/2022 15:28:44 - INFO - server - Connected:('192.168.1.7', 60509)
+13/Feb/2022 15:31:42 - INFO - server - Server is running
+13/Feb/2022 15:31:48 - INFO - server - Connected:('192.168.1.7', 60534)
+13/Feb/2022 15:34:46 - INFO - server - Server is running
+13/Feb/2022 15:34:49 - INFO - server - Connected:('192.168.1.7', 60544)
+13/Feb/2022 15:38:31 - INFO - server - Server is running
+13/Feb/2022 15:38:35 - INFO - server - Connected:('192.168.1.7', 60554)
+13/Feb/2022 15:39:38 - INFO - server - authorization - 200
+13/Feb/2022 15:41:13 - INFO - server - Server is running
+13/Feb/2022 15:41:19 - INFO - server - Connected:('192.168.1.7', 60564)
+13/Feb/2022 15:42:14 - ERROR - server - Receiving Error!
+13/Feb/2022 15:42:14 - INFO - server - Disconnected:('192.168.1.7', 60564)
+13/Feb/2022 15:42:32 - INFO - server - Server is running
+13/Feb/2022 15:42:40 - INFO - server - Connected:('192.168.1.7', 60574)
+13/Feb/2022 15:45:23 - INFO - server - Server is running
+13/Feb/2022 15:45:27 - INFO - server - Connected:('192.168.1.7', 60589)
+13/Feb/2022 15:47:01 - INFO - server - Server is running
+13/Feb/2022 15:47:06 - INFO - server - Connected:('192.168.1.7', 60601)
+13/Feb/2022 15:47:34 - ERROR - server - Unauthorized Error!
+13/Feb/2022 15:47:34 - INFO - server - get - 401
+13/Feb/2022 15:49:18 - INFO - server - Server is running
+13/Feb/2022 15:49:21 - INFO - server - Connected:('192.168.1.7', 60613)
+13/Feb/2022 15:49:59 - INFO - server - authorization - 200
+13/Feb/2022 15:55:04 - INFO - server - Server is running
+13/Feb/2022 15:55:09 - INFO - server - Connected:('192.168.1.7', 60640)
+13/Feb/2022 15:55:46 - INFO - server - authorization - 200
+13/Feb/2022 15:57:20 - INFO - server - Server is running
+13/Feb/2022 15:57:23 - INFO - server - Connected:('192.168.1.7', 60655)
+13/Feb/2022 15:57:55 - INFO - server - authorization - 200
+13/Feb/2022 16:20:01 - INFO - server - Server is running
+13/Feb/2022 16:20:08 - INFO - server - Connected:('192.168.1.7', 60273)
+13/Feb/2022 16:20:15 - INFO - server - authorization - 200
+13/Feb/2022 16:21:51 - INFO - server - Server is running
+13/Feb/2022 16:21:55 - INFO - server - Connected:('192.168.1.7', 60287)
+13/Feb/2022 16:22:06 - INFO - server - authorization - 200
+13/Feb/2022 16:23:05 - INFO - server - Server is running
+13/Feb/2022 16:23:08 - INFO - server - Connected:('192.168.1.7', 60304)
+13/Feb/2022 16:23:16 - INFO - server - authorization - 200
+13/Feb/2022 16:23:33 - INFO - server - get - 200
+13/Feb/2022 16:23:43 - ERROR - server - Receiving Error!
+13/Feb/2022 16:23:43 - INFO - server - Disconnected:('192.168.1.7', 60304)
+13/Feb/2022 16:23:44 - INFO - server - Connected:('192.168.1.7', 60310)
+13/Feb/2022 16:23:56 - INFO - server - authorization - 200
+13/Feb/2022 16:24:18 - INFO - server - get - 200
+13/Feb/2022 16:24:43 - INFO - server - get - 200
+13/Feb/2022 16:26:43 - INFO - server - Server is running
+13/Feb/2022 16:26:48 - INFO - server - Connected:('192.168.1.7', 60338)
+13/Feb/2022 16:27:02 - INFO - server - authorization - 200
+13/Feb/2022 16:27:49 - INFO - server - get - 200
+13/Feb/2022 16:28:44 - ERROR - server - Unauthorized Error!
+13/Feb/2022 16:28:45 - INFO - server - get - 401
+13/Feb/2022 16:31:48 - ERROR - server - Receiving Error!
+13/Feb/2022 16:31:48 - INFO - server - Disconnected:('192.168.1.7', 60338)
+13/Feb/2022 16:35:26 - INFO - server - Server is running
